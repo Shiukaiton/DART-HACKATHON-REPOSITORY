@@ -1,0 +1,18 @@
+void main() {
+  int num1 = 15;
+  int num2 = 10;
+
+  int resultAddition = add(num1, num2);
+  int resultMultiplication = multiply(num1, num2);
+
+  print("Result of addition: $resultAddition");
+  print("Result of multiplication: $resultMultiplication");
+}
+
+int add(int a, int b) {
+  return a + b;
+}
+
+int multiply(int a, int b) {
+  return a * b;
+}
